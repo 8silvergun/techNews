@@ -65,7 +65,8 @@ jobs:
         run: |
           ISSUE_NUMBER="${EVENT_ISSUE_NUMBER:-$INPUT_ISSUE_NUMBER}"
 
-          if git diff --quiet -- docs/; then
+          # git diff does not include newly generated untracked files.
+          if [ -z "$(git status --porcelain -- docs/)" ]; then
             echo "No generated document changes."
             exit 0
           fi
@@ -73,15 +74,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Rebase onto the latest default branch while keeping generated files.
-          # The workflow concurrency group prevents archive runs from racing each other.
-          git pull --rebase --autostash origin "$DEFAULT_BRANCH"
-
           git add docs/
           if git diff --cached --quiet; then
-            echo "No changes remain after rebase."
+            echo "No staged changes."
             exit 0
           fi
 
           git commit -m "docs: archive tech news issue #${ISSUE_NUMBER}"
+
+          # Archive workflows are serialized, and this also reconciles any
+          # unrelated default-branch commit that landed during this run.
+          git pull --rebase origin "$DEFAULT_BRANCH"
           git push origin "HEAD:$DEFAULT_BRANCH"
