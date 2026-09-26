@@ -11,6 +11,11 @@
 #### 메모리 계층
 
 - 2026-09-22 · [Engrams Embedding Entendre: Codesign for Efficient DRAM/SSD Offloading](AI%20%EC%8B%9C%EC%8A%A4%ED%85%9C/DRAM%C2%B7SSD%20%EC%98%A4%ED%94%84%EB%A1%9C%EB%94%A9/%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B3%84%EC%B8%B5/2026-09-22-issue-0002-05-engrams-embedding-entendre-codesign-for-efficient-dram-ssd-offloading.md)
+### 다중 모델 오토스케일링
+
+#### 추론/서빙
+
+- 2026-09-27 · [Cross-Model Autoscaling for Shared LLM Serving](AI%20%EC%8B%9C%EC%8A%A4%ED%85%9C/%EB%8B%A4%EC%A4%91%20%EB%AA%A8%EB%8D%B8%20%EC%98%A4%ED%86%A0%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81/%EC%B6%94%EB%A1%A0-%EC%84%9C%EB%B9%99/2026-09-27-issue-0008-02-cross-model-autoscaling-for-shared-llm-serving.md)
 ### 다중 엔진 재현 벤치마크
 
 #### 추론/서빙
@@ -50,6 +55,11 @@
 #### 평가/운영
 
 - 2026-09-22 · [Efficient Benchmarking in Production: A Study of an Evolving LLM Agent](AI%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%EB%B0%98%EB%B3%B5%20%EB%B2%A4%EC%B9%98%EB%A7%88%ED%82%B9/%ED%8F%89%EA%B0%80-%EC%9A%B4%EC%98%81/2026-09-22-issue-0002-01-efficient-benchmarking-in-production-a-study-of-an-evolving-llm-agent.md)
+### 실시간 상태 기반 응답
+
+#### 에이전트 운영
+
+- 2026-09-27 · [State-Grounded Conditioning: Wrapping User-Facing LLM Agents Where Direction Depends on Live State](AI%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%EC%8B%A4%EC%8B%9C%EA%B0%84%20%EC%83%81%ED%83%9C%20%EA%B8%B0%EB%B0%98%20%EC%9D%91%EB%8B%B5/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%EC%9A%B4%EC%98%81/2026-09-27-issue-0008-03-state-grounded-conditioning-wrapping-user-facing-llm-agents-where-direction-depe.md)
 ### 에이전트 워크로드
 
 #### 추론/서빙
@@ -70,6 +80,11 @@
 #### 추론/서빙
 
 - 2026-09-22 · [Prefix cache, not throughput: 14 days serving Qwen3.8-27B NVFP4 to production agents on two RTX 5090s](AI%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%ED%94%84%EB%A6%AC%ED%94%BD%EC%8A%A4%20%EC%BA%90%EC%8B%9C%20%EC%9A%B4%EC%98%81/%EC%B6%94%EB%A1%A0-%EC%84%9C%EB%B9%99/2026-09-22-issue-0002-04-prefix-cache-not-throughput-14-days-serving-qwen3-8-27b-nvfp4-to-production-agen.md)
+### 확률적 롤아웃 예산 배분
+
+#### 모델 평가
+
+- 2026-09-27 · [Speculative Evaluation of Stochastic LLMs](AI%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%ED%99%95%EB%A5%A0%EC%A0%81%20%EB%A1%A4%EC%95%84%EC%9B%83%20%EC%98%88%EC%82%B0%20%EB%B0%B0%EB%B6%84/%EB%AA%A8%EB%8D%B8%20%ED%8F%89%EA%B0%80/2026-09-27-issue-0008-05-speculative-evaluation-of-stochastic-llms.md)
 ## AI 연구
 
 ### KV 불변 모델 확장
@@ -82,11 +97,21 @@
 #### 코딩 에이전트
 
 - 2026-09-22 · [CodeMidas: Scaling Agentic Coding RL Environments from Code Itself](AI%20%EC%97%B0%EA%B5%AC/%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5%20%ED%99%98%EA%B2%BD%20%EC%83%9D%EC%84%B1/%EC%BD%94%EB%94%A9%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8/2026-09-22-issue-0002-03-codemidas-scaling-agentic-coding-rl-environments-from-code-itself.md)
+### 벤치마크 노출의 인과 효과
+
+#### 평가 신뢰성
+
+- 2026-09-27 · [Beyond Overlap: Estimating the Causal Effect of Benchmark Exposure](AI%20%EC%97%B0%EA%B5%AC/%EB%B2%A4%EC%B9%98%EB%A7%88%ED%81%AC%20%EB%85%B8%EC%B6%9C%EC%9D%98%20%EC%9D%B8%EA%B3%BC%20%ED%9A%A8%EA%B3%BC/%ED%8F%89%EA%B0%80%20%EC%8B%A0%EB%A2%B0%EC%84%B1/2026-09-27-issue-0008-04-beyond-overlap-estimating-the-causal-effect-of-benchmark-exposure.md)
 ### 에이전트 후학습
 
 #### 모델 학습
 
 - 2026-09-23 · [MiMo-V2.6 Pro Architecture and Training Notes](AI%20%EC%97%B0%EA%B5%AC/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%ED%9B%84%ED%95%99%EC%8A%B5/%EB%AA%A8%EB%8D%B8%20%ED%95%99%EC%8A%B5/2026-09-23-issue-0003-04-mimo-v2-6-pro-architecture-and-training-notes.md)
+### 자기 생성 데이터 사전학습
+
+#### 모델 학습
+
+- 2026-09-27 · [Self-Play Pretraining with Zero Data](AI%20%EC%97%B0%EA%B5%AC/%EC%9E%90%EA%B8%B0%20%EC%83%9D%EC%84%B1%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%82%AC%EC%A0%84%ED%95%99%EC%8A%B5/%EB%AA%A8%EB%8D%B8%20%ED%95%99%EC%8A%B5/2026-09-27-issue-0008-01-self-play-pretraining-with-zero-data.md)
 ### 추론 과정의 인과 검증
 
 #### 해석 가능성
