@@ -26,6 +26,11 @@
 #### 추론/서빙
 
 - 2026-09-26 · [When Fancy Eviction Fails: Rethinking Cache Replacement For LLM Prefix Reuse](AI%20%EC%8B%9C%EC%8A%A4%ED%85%9C/%ED%94%84%EB%A6%AC%ED%94%BD%EC%8A%A4%20%EC%BA%90%EC%8B%9C%20%EA%B5%90%EC%B2%B4%20%EC%A0%95%EC%B1%85/%EC%B6%94%EB%A1%A0-%EC%84%9C%EB%B9%99/2026-09-26-issue-0006-01-when-fancy-eviction-fails-rethinking-cache-replacement-for-llm-prefix-reuse.md)
+### 희소 어텐션·KV 공유
+
+#### 모델 아키텍처
+
+- 2026-09-28 · [HySparse2: Hybrid Sparse Attention with Two-Level KV Sharing](AI%20%EC%8B%9C%EC%8A%A4%ED%85%9C/%ED%9D%AC%EC%86%8C%20%EC%96%B4%ED%85%90%EC%85%98%C2%B7KV%20%EA%B3%B5%EC%9C%A0/%EB%AA%A8%EB%8D%B8%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98/2026-09-28-issue-0009-03-hysparse2-hybrid-sparse-attention-with-two-level-kv-sharing.md)
 ## AI 안전
 
 ### 도구 호출 권한 검증
@@ -60,6 +65,11 @@
 #### 에이전트 운영
 
 - 2026-09-27 · [State-Grounded Conditioning: Wrapping User-Facing LLM Agents Where Direction Depends on Live State](AI%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%EC%8B%A4%EC%8B%9C%EA%B0%84%20%EC%83%81%ED%83%9C%20%EA%B8%B0%EB%B0%98%20%EC%9D%91%EB%8B%B5/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%EC%9A%B4%EC%98%81/2026-09-27-issue-0008-03-state-grounded-conditioning-wrapping-user-facing-llm-agents-where-direction-depe.md)
+### 실패 기반 런타임 정책
+
+#### 에이전트 신뢰성
+
+- 2026-09-28 · [FIRE: Failure-Informed Runtime Engineering for Reliable Language-Model Agents](AI%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%EC%8B%A4%ED%8C%A8%20%EA%B8%B0%EB%B0%98%20%EB%9F%B0%ED%83%80%EC%9E%84%20%EC%A0%95%EC%B1%85/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%EC%8B%A0%EB%A2%B0%EC%84%B1/2026-09-28-issue-0009-04-fire-failure-informed-runtime-engineering-for-reliable-language-model-agents.md)
 ### 에이전트 워크로드
 
 #### 추론/서빙
@@ -70,6 +80,11 @@
 #### 추론/서빙
 
 - 2026-09-26 · [469 tok/s/user on Million-Token Agent Sessions: TileRT Takes the Top Spot on AgentX with AMD Instinct MI355X GPUs](AI%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%EC%A7%80%EC%86%8D%20%EC%8B%A4%ED%96%89%20GPU%20%EC%BB%A4%EB%84%90/%EC%B6%94%EB%A1%A0-%EC%84%9C%EB%B9%99/2026-09-26-issue-0006-05-469-tok-s-user-on-million-token-agent-sessions-tilert-takes-the-top-spot-on-agen.md)
+### 추론 기록 압축
+
+#### 에이전트 컨텍스트
+
+- 2026-09-28 · [When Can Agents Forget Their Reasoning? ICLR for Long-Horizon Agent Context Compression](AI%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%EC%B6%94%EB%A1%A0%20%EA%B8%B0%EB%A1%9D%20%EC%95%95%EC%B6%95/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8/2026-09-28-issue-0009-01-when-can-agents-forget-their-reasoning-iclr-for-long-horizon-agent-context-compr.md)
 ### 커널·스케줄링
 
 #### 추론/서빙
@@ -132,6 +147,16 @@
 #### 컴퓨터 사용 에이전트
 
 - 2026-09-22 · [RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents](AI%20%EC%97%B0%EA%B5%AC/%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C%20GUI%C2%B7%EC%BD%94%EB%94%A9%20%ED%8F%89%EA%B0%80/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EC%82%AC%EC%9A%A9%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8/2026-09-22-issue-0002-02-recreationworld-scalable-and-verifiable-environments-for-hybrid-computer-use-age.md)
+### 환경 노이즈·적응
+
+#### 에이전트 학습
+
+- 2026-09-28 · [Breaking the Environment Wall: Evolving LLM Agent Environments for Recursive Self-Improvement](AI%20%EC%97%B0%EA%B5%AC/%ED%99%98%EA%B2%BD%20%EB%85%B8%EC%9D%B4%EC%A6%88%C2%B7%EC%A0%81%EC%9D%91/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%ED%95%99%EC%8A%B5/2026-09-28-issue-0009-02-breaking-the-environment-wall-evolving-llm-agent-environments-for-recursive-self.md)
+### 후학습 납품 검증
+
+#### 에이전트 평가
+
+- 2026-09-28 · [Trains but Doesn't Learn: A Post-Training Delivery Benchmark for LLM Agents as Forward-Deployed Engineers](AI%20%EC%97%B0%EA%B5%AC/%ED%9B%84%ED%95%99%EC%8A%B5%20%EB%82%A9%ED%92%88%20%EA%B2%80%EC%A6%9D/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%ED%8F%89%EA%B0%80/2026-09-28-issue-0009-05-trains-but-doesn-t-learn-a-post-training-delivery-benchmark-for-llm-agents-as-fo.md)
 ## 시스템 엔지니어링
 
 ### 온라인 스토리지
