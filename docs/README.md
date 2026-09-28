@@ -21,11 +21,26 @@
 #### 추론/서빙
 
 - 2026-09-23 · [Benchmarking Kimi-K3 Across vLLM, SGLang, and ATOM on MI350X](AI%20%EC%8B%9C%EC%8A%A4%ED%85%9C/%EB%8B%A4%EC%A4%91%20%EC%97%94%EC%A7%84%20%EC%9E%AC%ED%98%84%20%EB%B2%A4%EC%B9%98%EB%A7%88%ED%81%AC/%EC%B6%94%EB%A1%A0-%EC%84%9C%EB%B9%99/2026-09-23-issue-0003-05-benchmarking-kimi-k3-across-vllm-sglang-and-atom-on-mi350x.md)
+### 분기 추측 실행
+
+#### 추론/서빙
+
+- 2026-09-29 · [DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving](AI%20%EC%8B%9C%EC%8A%A4%ED%85%9C/%EB%B6%84%EA%B8%B0%20%EC%B6%94%EC%B8%A1%20%EC%8B%A4%ED%96%89/%EC%B6%94%EB%A1%A0-%EC%84%9C%EB%B9%99/2026-09-29-issue-0010-02-dynbranch-speculative-subgraph-reuse-for-dynamic-agentic-llm-serving.md)
+### 인코딩·프리필·디코딩 분리
+
+#### 멀티모달 서빙
+
+- 2026-09-29 · [EAServe: Encode-Aware Disaggregated Serving for Multimodal Large Language Models](AI%20%EC%8B%9C%EC%8A%A4%ED%85%9C/%EC%9D%B8%EC%BD%94%EB%94%A9%C2%B7%ED%94%84%EB%A6%AC%ED%95%84%C2%B7%EB%94%94%EC%BD%94%EB%94%A9%20%EB%B6%84%EB%A6%AC/%EB%A9%80%ED%8B%B0%EB%AA%A8%EB%8B%AC%20%EC%84%9C%EB%B9%99/2026-09-29-issue-0010-03-easerve-encode-aware-disaggregated-serving-for-multimodal-large-language-models.md)
 ### 프리픽스 캐시 교체 정책
 
 #### 추론/서빙
 
 - 2026-09-26 · [When Fancy Eviction Fails: Rethinking Cache Replacement For LLM Prefix Reuse](AI%20%EC%8B%9C%EC%8A%A4%ED%85%9C/%ED%94%84%EB%A6%AC%ED%94%BD%EC%8A%A4%20%EC%BA%90%EC%8B%9C%20%EA%B5%90%EC%B2%B4%20%EC%A0%95%EC%B1%85/%EC%B6%94%EB%A1%A0-%EC%84%9C%EB%B9%99/2026-09-26-issue-0006-01-when-fancy-eviction-fails-rethinking-cache-replacement-for-llm-prefix-reuse.md)
+### 행동 중심 KV 캐시 압축
+
+#### 추론/서빙
+
+- 2026-09-29 · [ActKV: Efficient LLM Agents through Action-Guided KV Cache Management](AI%20%EC%8B%9C%EC%8A%A4%ED%85%9C/%ED%96%89%EB%8F%99%20%EC%A4%91%EC%8B%AC%20KV%20%EC%BA%90%EC%8B%9C%20%EC%95%95%EC%B6%95/%EC%B6%94%EB%A1%A0-%EC%84%9C%EB%B9%99/2026-09-29-issue-0010-01-actkv-efficient-llm-agents-through-action-guided-kv-cache-management.md)
 ### 희소 어텐션·KV 공유
 
 #### 모델 아키텍처
@@ -50,6 +65,11 @@
 - 2026-09-21 · [Automated researchers can reliably mitigate alignment failures](AI%20%EC%95%88%EC%A0%84/%EC%9E%90%EB%8F%99%20%EC%A0%95%EB%A0%AC%20%EC%97%B0%EA%B5%AC/%EC%A0%95%EB%A0%AC-%ED%8F%89%EA%B0%80/2026-09-21-issue-0001-05-automated-researchers-can-reliably-mitigate-alignment-failures.md)
 ## AI 엔지니어링
 
+### 강화학습 환경 관리
+
+#### 에이전트 학습
+
+- 2026-09-29 · [WeEnv: The Environment for Agentic Reinforcement Learning at WeChat](AI%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5%20%ED%99%98%EA%B2%BD%20%EA%B4%80%EB%A6%AC/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%ED%95%99%EC%8A%B5/2026-09-29-issue-0010-04-weenv-the-environment-for-agentic-reinforcement-learning-at-wechat.md)
 ### 단계별 모델 라우팅
 
 #### 에이전트 운영
@@ -127,6 +147,11 @@
 #### 모델 학습
 
 - 2026-09-27 · [Self-Play Pretraining with Zero Data](AI%20%EC%97%B0%EA%B5%AC/%EC%9E%90%EA%B8%B0%20%EC%83%9D%EC%84%B1%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%82%AC%EC%A0%84%ED%95%99%EC%8A%B5/%EB%AA%A8%EB%8D%B8%20%ED%95%99%EC%8A%B5/2026-09-27-issue-0008-01-self-play-pretraining-with-zero-data.md)
+### 자기대국 탐색 증류
+
+#### 모델 학습
+
+- 2026-09-29 · [Self-Play Search Distillation for Large Language Model Reasoning](AI%20%EC%97%B0%EA%B5%AC/%EC%9E%90%EA%B8%B0%EB%8C%80%EA%B5%AD%20%ED%83%90%EC%83%89%20%EC%A6%9D%EB%A5%98/%EB%AA%A8%EB%8D%B8%20%ED%95%99%EC%8A%B5/2026-09-29-issue-0010-05-self-play-search-distillation-for-large-language-model-reasoning.md)
 ### 추론 과정의 인과 검증
 
 #### 해석 가능성
