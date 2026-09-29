@@ -21,6 +21,11 @@
 #### 추론/서빙
 
 - 2026-09-23 · [Benchmarking Kimi-K3 Across vLLM, SGLang, and ATOM on MI350X](AI%20%EC%8B%9C%EC%8A%A4%ED%85%9C/%EB%8B%A4%EC%A4%91%20%EC%97%94%EC%A7%84%20%EC%9E%AC%ED%98%84%20%EB%B2%A4%EC%B9%98%EB%A7%88%ED%81%AC/%EC%B6%94%EB%A1%A0-%EC%84%9C%EB%B9%99/2026-09-23-issue-0003-05-benchmarking-kimi-k3-across-vllm-sglang-and-atom-on-mi350x.md)
+### 반복 트랜스포머 추론 최적화
+
+#### 모델 아키텍처
+
+- 2026-09-30 · [FlashLoop: Fast and Memory-Efficient Looped Transformers via Lazy Updates](AI%20%EC%8B%9C%EC%8A%A4%ED%85%9C/%EB%B0%98%EB%B3%B5%20%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8%20%EC%B6%94%EB%A1%A0%20%EC%B5%9C%EC%A0%81%ED%99%94/%EB%AA%A8%EB%8D%B8%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98/2026-09-30-issue-0012-05-flashloop-fast-and-memory-efficient-looped-transformers-via-lazy-updates.md)
 ### 분기 추측 실행
 
 #### 추론/서빙
@@ -48,6 +53,11 @@
 - 2026-09-28 · [HySparse2: Hybrid Sparse Attention with Two-Level KV Sharing](AI%20%EC%8B%9C%EC%8A%A4%ED%85%9C/%ED%9D%AC%EC%86%8C%20%EC%96%B4%ED%85%90%EC%85%98%C2%B7KV%20%EA%B3%B5%EC%9C%A0/%EB%AA%A8%EB%8D%B8%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98/2026-09-28-issue-0009-03-hysparse2-hybrid-sparse-attention-with-two-level-kv-sharing.md)
 ## AI 안전
 
+### 간접 프롬프트 인젝션 방어
+
+#### 에이전트 보안
+
+- 2026-09-30 · [CoDeL: Co-Evolutionary Defense against Indirect Prompt Injection in LLM-based Agents](AI%20%EC%95%88%EC%A0%84/%EA%B0%84%EC%A0%91%20%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%20%EC%9D%B8%EC%A0%9D%EC%85%98%20%EB%B0%A9%EC%96%B4/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%EB%B3%B4%EC%95%88/2026-09-30-issue-0012-01-codel-co-evolutionary-defense-against-indirect-prompt-injection-in-llm-based-age.md)
 ### 도구 호출 권한 검증
 
 #### 에이전트 보안
@@ -95,6 +105,11 @@
 #### 추론/서빙
 
 - 2026-09-21 · [vLLM x AgentX: Optimizing for Real-World Agentic Serving](AI%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%EC%9B%8C%ED%81%AC%EB%A1%9C%EB%93%9C/%EC%B6%94%EB%A1%A0-%EC%84%9C%EB%B9%99/2026-09-21-issue-0001-02-vllm-x-agentx-optimizing-for-real-world-agentic-serving.md)
+### 요청 시점 증거 조사
+
+#### 에이전트 메모리
+
+- 2026-09-30 · [Just-In-Time Agent Memory with Runtime Agentic Research](AI%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81/%EC%9A%94%EC%B2%AD%20%EC%8B%9C%EC%A0%90%20%EC%A6%9D%EA%B1%B0%20%EC%A1%B0%EC%82%AC/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%EB%A9%94%EB%AA%A8%EB%A6%AC/2026-09-30-issue-0012-03-just-in-time-agent-memory-with-runtime-agentic-research.md)
 ### 지속 실행 GPU 커널
 
 #### 추론/서빙
@@ -132,6 +147,11 @@
 #### 코딩 에이전트
 
 - 2026-09-22 · [CodeMidas: Scaling Agentic Coding RL Environments from Code Itself](AI%20%EC%97%B0%EA%B5%AC/%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5%20%ED%99%98%EA%B2%BD%20%EC%83%9D%EC%84%B1/%EC%BD%94%EB%94%A9%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8/2026-09-22-issue-0002-03-codemidas-scaling-agentic-coding-rl-environments-from-code-itself.md)
+### 다단계 행동 학습
+
+#### 멀티모달 에이전트
+
+- 2026-09-30 · [PIVOT: Pivot-Aware On-Policy Self-Distillation for Multi-Turn VLM Agents](AI%20%EC%97%B0%EA%B5%AC/%EB%8B%A4%EB%8B%A8%EA%B3%84%20%ED%96%89%EB%8F%99%20%ED%95%99%EC%8A%B5/%EB%A9%80%ED%8B%B0%EB%AA%A8%EB%8B%AC%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8/2026-09-30-issue-0012-02-pivot-pivot-aware-on-policy-self-distillation-for-multi-turn-vlm-agents.md)
 ### 벤치마크 노출의 인과 효과
 
 #### 평가 신뢰성
@@ -152,6 +172,11 @@
 #### 모델 학습
 
 - 2026-09-29 · [Self-Play Search Distillation for Large Language Model Reasoning](AI%20%EC%97%B0%EA%B5%AC/%EC%9E%90%EA%B8%B0%EB%8C%80%EA%B5%AD%20%ED%83%90%EC%83%89%20%EC%A6%9D%EB%A5%98/%EB%AA%A8%EB%8D%B8%20%ED%95%99%EC%8A%B5/2026-09-29-issue-0010-05-self-play-search-distillation-for-large-language-model-reasoning.md)
+### 장기 다중 에이전트 협력
+
+#### 에이전트 평가
+
+- 2026-09-30 · [AgentWorld: Benchmarking Long-Horizon Collaboration of Multi-agent LLMs](AI%20%EC%97%B0%EA%B5%AC/%EC%9E%A5%EA%B8%B0%20%EB%8B%A4%EC%A4%91%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%ED%98%91%EB%A0%A5/%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%ED%8F%89%EA%B0%80/2026-09-30-issue-0012-04-agentworld-benchmarking-long-horizon-collaboration-of-multi-agent-llms.md)
 ### 추론 과정의 인과 검증
 
 #### 해석 가능성
