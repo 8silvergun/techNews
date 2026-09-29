@@ -43,7 +43,29 @@ jobs:
 
       - name: Archive issue from event
         if: github.event_name == 'issues'
-        run: python scripts/archive_issue.py --event "$GITHUB_EVENT_PATH"
+        shell: bash
+        run: |
+          set +e
+          output="$(python scripts/archive_issue.py --event "$GITHUB_EVENT_PATH" 2>&1)"
+          status=$?
+          set -e
+
+          if [ "$status" -eq 0 ]; then
+            printf '%s\n' "$output"
+            exit 0
+          fi
+
+          # A malformed/non-archiveable issue is an input validation result, not
+          # an infrastructure or code failure. Keep the workflow green while
+          # preserving genuine script failures as failures.
+          if printf '%s\n' "$output" | grep -Fq "ValueError: No articles found. Expected"; then
+            printf '%s\n' "$output"
+            echo "::warning::Issue format is not archiveable yet; skipping Markdown generation."
+            exit 0
+          fi
+
+          printf '%s\n' "$output" >&2
+          exit "$status"
 
       - name: Fetch manually selected issue
         if: github.event_name == 'workflow_dispatch'
